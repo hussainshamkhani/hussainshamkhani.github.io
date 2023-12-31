@@ -4701,7 +4701,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width:600px)  { /* smartphones, iPhone, portrait 480x320 phones */
 	#me {
 		border-radius: 50%;
 		width: 250px;
@@ -4710,22 +4710,4 @@ input, select, textarea {
 		display: inline-block;
 		text-align: center;
 	}
-}
-@media (min-width:641px)  { 
-	/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
-	#me {
-		border-radius: 50%;
-		width: 500px;
-		height: 500px;
-		object-fit: cover;
-		display: inline-block;
-		text-align: center;
-	}
-
-	#resume{
-		width: 200px;
-		height: 50px;
-		font-size: 18px;
-	}
-	
 }
